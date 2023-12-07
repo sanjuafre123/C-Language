@@ -2,19 +2,20 @@
 main()
 {
 	int start,end;
-	printf("enter the starting value : ");
+	printf("the value starting :");
 	scanf("%d",&start);
-	printf("enter the ending value : ");
+	printf("the value ending :");
 	scanf("%d",&end);
-	int length = end - start;
-	int leap = length/4 +1;
+	int lenght = end -start;
+	int leap=lenght/4 +1;
 	int leapyear[leap];
 	int i,x=0;
+	
 	for(i=start; i<=end; i++)
 	{
 		if(i%4==0)
 		{
-			leapyear[x] = i;
+			leapyear[x]=i;
 			x++;
 		}
 	}
@@ -22,5 +23,6 @@ main()
 	{
 		printf("%d ",leapyear[i]);
 	}
+	
 	
 }
