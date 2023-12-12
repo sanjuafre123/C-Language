@@ -11,7 +11,7 @@ main()
 	int a[n];
 	int b[m];
 	int marge[o=m+n];
-	int i,j=1;
+	int i,j=0;
 	
 	
 	for(i=0; i<n; i++)
