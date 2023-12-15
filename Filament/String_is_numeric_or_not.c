@@ -4,17 +4,17 @@
 
 void main()
 {
-    char name[50];//string declare
+    char name[50];
     printf("Enter the string : ");
-    gets(name);//user prompt
+    gets(name);
     int length=strlen(name);
-    int i,num=0;//i is loop counter
+    int i,num=0;
     
     for(i=0; i<length; i++)
     {
         if(name[i]>=48 && name[i]<=57)
         {
-            num=1;//numeric
+            num=1;
         }
     }
     if(num==1)
