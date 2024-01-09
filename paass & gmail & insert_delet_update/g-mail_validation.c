@@ -69,7 +69,7 @@ int main()
 	}
 	else
 	{
-		printf("Enter gmail in this format : ankitumredkar77@gmail.com ");
+		printf("Enter gmail in this format : Sanjuafre08@gmail.com ");
 		goto start;
 	}          
 
