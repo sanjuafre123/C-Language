@@ -13,8 +13,7 @@ main()
 	ptr3 = ptr1;
 	ptr1 = ptr2;
 	ptr2 = ptr3;
-	printf("Value of a is : %d\n",*ptr1);
-	printf("Value of b is : %d",*ptr2);
-	printf("\nSystumm...");
+	printf("Value of a : %d\n",*ptr1);
+	printf("Value of b : %d\n",*ptr2);
 	
 }
