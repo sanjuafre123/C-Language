@@ -42,8 +42,8 @@ main()
  		printf("Physics     : %d\n",s[i].phy_marks);
  		
  		ans = s[i].Chemistry_marks + s[i].maths_marks + s[i].phy_marks;
- 		printf("Total  : %d/300\n",ans);
- 		result = (ans*100.0)/300;
- 		printf("Percent     : %.2f%%",result);
+ 		printf("Total  : %d\n",ans);
+ 		result = (ans*100)/300;
+ 		printf("Percent  : %.2f%%",result);
 	} 
 }
